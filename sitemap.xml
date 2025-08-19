@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://exemplo.com/docs/</loc>
+         <lastmod>2025-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://exemplo.com/docs/candidato/cadastrar-curriculo/</loc>
+         <lastmod>2025-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://exemplo.com/docs/empresa/dashboard/</loc>
+         <lastmod>2025-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://exemplo.com/docs/geral/guia-rapido/</loc>
+         <lastmod>2025-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://exemplo.com/docs/geral/login/</loc>
+         <lastmod>2025-08-19</lastmod>
+    </url>
+    <url>
+         <loc>https://exemplo.com/docs/recrutador/criar-vaga/</loc>
+         <lastmod>2025-08-19</lastmod>
+    </url>
+</urlset>
