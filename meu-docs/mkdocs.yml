@@ -1,8 +1,10 @@
 site_name: Manuais — Rede Aviação
 site_description: Passo a passo para usar o sistema de vagas de trabalho na aviação.
-site_url: https://exemplo.com/docs
-repo_url: https://github.com/sua-org/seu-repo
-repo_name: seu-repo
+site_url: https://douglasmelo-dev.github.io/mkdocs/
+repo_url: https://github.com/DouglasMelo-Dev/mkdocs
+repo_name: DouglasMelo-Dev/mkdocs
+# Se seu mkdocs.yml está dentro da pasta "meu-docs", ative edit_uri apontando para o subdir:
+# edit_uri: edit/main/meu-docs/docs/
 
 theme:
   name: material
@@ -20,18 +22,23 @@ theme:
       primary: blue
       accent: blue
   favicon: imagens/favicon.png
-  logo: imagens/logo.png
+  logo: imagens/rede_aviacao_logo.png
 
 nav:
   - Início: index.md
   - Guia rápido: geral/guia-rapido.md
+  - Autenticação:
+      - Login: geral/login.md
+      - Registro: geral/registro.md
+      - Recuperar senha: geral/recuperar-senha.md
+      - Verificar e-mail: geral/verificar-email.md
   - Para Recrutadores:
       - Criar uma vaga: recrutador/criar-vaga.md
   - Para Candidatos:
       - Cadastrar currículo: candidato/cadastrar-curriculo.md
-      - Login: geral/login.md
   - Para Empresas:
       - Dashboard da empresa: empresa/dashboard.md
+
 
 plugins:
   - search
@@ -60,4 +67,7 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/sua-org
+      link: https://github.com/DouglasMelo-Dev
+
+extra_css:
+  - stylesheets/extra.css
